@@ -130,7 +130,7 @@ enum LogLevel
     NONE
 };
 
-static LogLevel logLevel = NONE;
+static LogLevel logLevel = ERROR;
 
 static char const * log_level_name(LogLevel level)
 {
